@@ -1,3 +1,24 @@
+:root{
+  --header_img: url('https://i.pinimg.com/originals/ee/26/8c/ee268cf73e3850486966244fe34605d6.png');
+  --text_color: antiquewhite;
+  --shadow: rgb(37, 37, 37);
+  --videoBox-shadow_color: 5px 5px 8px 8px rgba(30, 58, 196, 0.272);
+  --card_background-color: rgb(117, 13, 13);
+  --app_background: #7fcff165;
+  --navbar_background : linear-gradient(145deg, rgb(190, 81, 81), rgb(63, 134, 192));
+  --plot_background : rgb(99, 23, 23);
+}
+[data-theme='dark']{
+  --header_img: url('https://c4.wallpaperflare.com/wallpaper/786/42/444/samurai-digital-castle-artwork-men-hd-wallpaper-preview.jpg');
+  --text_color: rgb(0, 0, 0);
+  --shadow: antiquewhite;
+  --videoBox-shadow_color: 5px 5px 8px 8px rgba(1, 28, 183, 0.272);
+  --card_background-color: rgb(104, 72, 72);
+  --app_background: #09283565;
+  --navbar_background : linear-gradient(145deg, rgba(129, 3, 3, 0.465), rgba(0, 86, 157, 0.49));
+  --plot_background : rgb(54, 15, 15);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
